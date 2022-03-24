@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 /**
  * cap_string - capitalizes every first letter of a word in a string.
  * separators of words are:  space, tabulation,
@@ -27,7 +27,7 @@ char *cap_string(char *s)
 		{
 			if (s[count + 1] >= 97 && s[count + 1] <= 122)
 			{
-			s[count + 1] = s[count + 1] - 32;
+				s[count + 1] = s[count + 1] - 32;
 			}
 		}
 		count++;
