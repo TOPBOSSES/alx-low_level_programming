@@ -2,8 +2,8 @@
 
 /**
  * print_number - print out a number using printchar.
- *  @n: the number you want to print using putchar
- *  Return: 0.
+ * @n: the number you want to print using putchar
+ * Return: 0.
  */
 void print_number(int n)
 {
@@ -13,7 +13,7 @@ void print_number(int n)
 	div = 1;
 	if (n < 0)
 	{
-		_putchar('-')
+		_putchar('-');
 	}
 	if (n == 0)
 	{
