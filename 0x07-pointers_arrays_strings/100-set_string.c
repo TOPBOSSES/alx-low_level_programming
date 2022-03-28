@@ -1,4 +1,4 @@
-#include "maion.h"
+#include "main.h"
 /**
  * set_string - sets string
  * @s: string
