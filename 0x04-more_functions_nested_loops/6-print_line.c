@@ -1,15 +1,25 @@
 #include "main.h"
 
 /**
- * print_line - prints a line with the length being the input
- * @n: the length of the line
- * Return: void
+ * print_line - print a straight line using putchar of n size
+ * @n: size of line
  */
+
 void print_line(int n)
 {
-	int i;
+	for (; n > 0; n--)
+		_putchar('_');
+	_putchar('\n');
+}#include "main.h"
 
-	for (i = 0; i < n; ++i)
+/**
+ * print_line - print a straight line using putchar of n size
+ * @n: size of line
+ */
+
+void print_line(int n)
+{
+	for (; n > 0; n--)
 		_putchar('_');
 	_putchar('\n');
 }
