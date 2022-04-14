@@ -14,7 +14,7 @@ int sum_them_all(const unsigned int n, ...)
 
 	if (n != 0)
 	{
-		va_starty(args, n);
+		va_start(args, n);
 
 		while (i < n)
 		{
@@ -28,4 +28,3 @@ int sum_them_all(const unsigned int n, ...)
 
 	return (0);
 }
-
